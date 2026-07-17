@@ -55,14 +55,14 @@ Your agent can already run tasks. But can it remember which skills worked? Can i
 
 - **2026-07-17** 🚀 **OpenSpace v2 is released**: v2 turns OpenSpace into a quality-first Skill Hub with package-based skill browsing, skill quality summaries, task-trace uploads, and a refreshed dashboard / TUI experience.
 
+<details>
+<summary>Earlier news</summary>
+
 - **2026-07-04** 📊 **Skill quality summaries now visible while browsing v2 skills**: package and skill detail views show usage-quality summaries; public lineage pages display redacted placeholders for unavailable content.
 
 - **2026-07-03** 🔎 **Package skill search and task-trace uploads are now first-class v2 flows**: package pages search skills directly, and task traces can be validated, stored, and uploaded idempotently as quality evidence.
 
 - **2026-06-25** 🌐 **The v2 cloud path became more stable for public browsing and private skill access**: public pages, private skill endpoints, frontend / backend routes, and TLS access are now checked together.
-
-<details>
-<summary>Earlier news</summary>
 
 - **2026-06-19** 🌐 **Public v2 pages can be read without login**: anonymous visitors can browse public skills, existing users gained an agent bootstrap path, and search / recall services were restored.
 
@@ -218,6 +218,14 @@ Run the agent in a way that leaves useful evidence.
 - Evolves skills only when evidence demands it — with validation, version history, and full control.
 - Organizes cloud skills by package for meaningful browsing, then imports them locally before any reuse.
 - Runs agents in a harness that captures the evidence quality judgment and skill evolution both depend on.
+
+### 📊 Terminal-Bench 2.1: Self-Evolution That Shows Up in the Score
+
+With the same frozen Hy3 backbone, OpenSpace improves from a 65.2% Cold run to a 78.7% Warm run as its trusted skill library evolves.
+
+<div align="center">
+  <img src="assets/benchmark_v2.png" width="100%" alt="OpenSpace and Hy3 performance on Terminal-Bench 2.1, including leaderboard standing, task-family scores, and capability profile">
+</div>
 
 ## 📋 Table of Contents
 
